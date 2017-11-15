@@ -14,13 +14,18 @@ echo('Vi imate:'.$_post['godina'].'godina');
 echo('<br>');
 if($_post['godine']>=18)
 {
-    echo('Vi ste punoljetni');
+    echo('Vi ste PUNOLJETNI!');
+}
+else
+{
+    echo('Vi niste punljetni!');
 }
 <input type="number" name="Godine"><br>
 if(Godine<18)
 {
     printf("Detained!")
 }
+?>
 <?php
 //print_r($_POST);
 ?>
